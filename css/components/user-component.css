@@ -60,3 +60,27 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__more {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__more span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff4f41;
+  margin-left: 3px;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #ff4f41;
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.fa-comment-alt {
+  color: rgba(0, 0, 0, 0.4);
+}
