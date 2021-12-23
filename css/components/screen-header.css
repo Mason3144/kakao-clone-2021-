@@ -1,6 +1,6 @@
 .screen-header {
   position: fixed;
-  margin-top: 25px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -8,6 +8,7 @@
   align-items: center;
   box-sizing: border-box;
   background-color: white;
+  z-index: 2;
 }
 
 .screen-header__title {
@@ -18,4 +19,18 @@
 .screen-header__icons span {
   margin-left: 25px;
   opacity: 0.7;
+}
+
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+    color: black;
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 3s ease-in-out infinite;
 }

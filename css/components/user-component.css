@@ -84,3 +84,7 @@
 .fa-comment-alt {
   color: rgba(0, 0, 0, 0.4);
 }
+
+.main-screen a {
+  text-decoration: none;
+}
